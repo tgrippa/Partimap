@@ -47,7 +47,7 @@ Click the IP adress of the service and a new tab will appear in your web browser
 
 ```
 # Run a new Docker container named "partimap"
-docker run -p 8888:8888 -v /media/tais/data/PARTIMAP_processing/:/home/partimap/PARTIMAP_processing -v /media/tais/data/Dropbox/ULB/PARTIMAP/Predict_Derpivation_Perceptions_DL/:/home/partimap --runtime=nvidia --name partimap partimap_tf2_gpu
+docker run -p 8888:8888 -v /media/tais/data/PARTIMAP_processing:/home/partimap/PARTIMAP_processing -v /media/tais/data/Dropbox/ULB/PARTIMAP/Predict_Derpivation_Perceptions_DL:/home/partimap/Predict_Derpivation_Perceptions_DL --runtime=nvidia --name partimap partimap_tf2_gpu
 
 ```
 
