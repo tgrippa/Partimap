@@ -8,7 +8,7 @@ Created on Wed Dec 11 11:55:10 2019
 # Import library
 import os
 import tensorflow as tf
-import keras
+#import keras
 import timeit
 
 # Check list of local device
