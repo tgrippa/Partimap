@@ -2,7 +2,7 @@
 ## Base image: Tensorflow - Cuda driver 11.2.0 with Ubuntu Focal (20.04); 
 ## Softwares: Python3 (numpy, scipy, pandas, OpenCV, Gdal), Jupyter Lab
 
-FROM tensorflow/tensorflow:2.5.0-gpu-jupyter
+FROM tensorflow/tensorflow:2.8.0-gpu-jupyter
 
 LABEL maintainer="tais.grippa@ulb.be"
 
