@@ -6,6 +6,7 @@ Functions for plotting learning curves (loss, val_loss) and scatterplot for regr
 
 import matplotlib.pyplot as plt
 import numpy as np
+import os
 
 def plot_loss(history, save_path, ylim=[0,25.0], show=False):
     fig = plt.subplots(figsize=(15, 9))
