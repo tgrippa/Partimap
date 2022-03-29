@@ -2,6 +2,9 @@
 This repository contains the code for predicting perceived deprivation levels from RS image using DL. 
 This research was conducted by [Université Libre de Bruxelles](https://anageo.sciences.ulb.be/), in the context of the PARTIMAP project founded by the Belgian science policy (contract SR/11/217).
 
+## Citing this code
+To cite this code, please use the following DOI [![DOI:10.17605/OSF.IO/JS4YC](http://img.shields.io/badge/DOI-10.17605/OSF.IO/JS4YC-0000ff.svg)](http://doi.org/10.17605/OSF.IO/JS4YC).
+
 ## Content of this repository
 Notebooks/ contains the Jupyter notebooks used for this research.
 SRC/ contains custom Python class and functions. 
@@ -11,9 +14,6 @@ Dockerfile and singularity.def are image definitions for [Docker](https://www.do
 All experiments have been designed on a host environment running on Ubuntu 20.04 (focal) with a Nvidia RTX 2080s (8Gb). The full training and inference of were conducted on a HPC cluster with two Nvidia RTX 2080-Ti (11Gb each) using Singularity containers. There is a high probability that you will not be able to reproduce the experiments with less than 20Gb of VRAM (GPU's RAM).
 
 Beside the actual computer codes, we provide a Docker image and a Singularity image that allow you to create the exact same environment as ours to run the code. Due to the stochastic behaviour of deep learning models, it is not guarantee that results are 100% replicable. 
-
-## Citing this code
-TODO : Zenodo/OSF DOI with all co-authors.
 
 # Setup a Docker environment 
 
